@@ -10,6 +10,7 @@ import { Skill } from '../models/skill.model';
 export class DeveloperComponent implements OnInit {
 
   constructor() { }
+
   javascript: Skill = new Skill('javascript', 'js', 'www.siteJs.org');
 
   typescript: Skill = new Skill('typescript', 'ts', 'www.siteTs.org');

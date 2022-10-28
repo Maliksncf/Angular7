@@ -1,0 +1,6 @@
+<app-create-onomatopia
+  (sendOnomatopiaToParent)="onReceiveNewOnomatopia($event)"
+></app-create-onomatopia>
+<ul *ngIf="onomatopiaList">
+  <li *ngFor="let onomatopia of onomatopiaList">{{ onomatopia }}</li>
+</ul>
